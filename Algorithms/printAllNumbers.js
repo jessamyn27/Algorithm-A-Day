@@ -13,18 +13,52 @@
 // 6
 // 7
 
-let testNumber = 27;
-let testNumber2 = 100;
-let testNumber3 = 5;
-let testNumber4 = 16;
 
-printAllNumbers = num => {
-    for (let i = 0; i <= num; i++) {
-        console.log(num)
-    }
-}
 
-printAllNumbers(testNumber2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ---------------------- WARNING ANSWER DOWN BELOW --------------------------------  
+
+
+
+
+
+
+
+
+// let testNumber = 27;
+// let testNumber2 = 100;
+// let testNumber3 = 5;
+// let testNumber4 = 16;
+
+// printAllNumbers = num => {
+//     for (let i = 0; i <= num; i++) {
+//         console.log(num)
+//     }
+// }
+
+// printAllNumbers(testNumber2);
 
 
 
