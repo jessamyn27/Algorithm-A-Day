@@ -1,7 +1,6 @@
-// Write code to add all the numbers in `arr` and return the total
+console.log('CODE EVERYDAY!🦄 👩🏼‍💻 🌈');
 
-
-
+//  valid subsequence challenge from algoexpert.com
 
 
 
@@ -34,14 +33,22 @@
 
 
 
-// const array = [2, 5, 10];
-// var sumArray = function(arr) {
-//     let sum = 0;
-//     for (let i = 0; i < arr.length; i++) {
-//         sum += arr[i]
+
+// function isValidSubsequence(array, sequence) {
+//     // Write your code here.
+//     let j = 0;
+
+//     for (let i = 0; i < array.length; i++) {
+
+//         // you would wait for array[i] = sequence[j] and then move to next value		
+
+//         if (array[i] === sequence[j]) {
+//             j++;
+//         }
 //     }
-//     console.log(sum)
-
-// };
-
-// sumArray(array)
+//     if (j === sequence.length) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }

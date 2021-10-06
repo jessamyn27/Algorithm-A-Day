@@ -4,18 +4,25 @@ console.log('CODE EVERYDAY!🦄 👩🏼‍💻 🌈');
 // to test in the browser console.log
 // when you get it right, create a new js file and paste in there!
 
-// Write code to return the string "odd" if `num` is an odd number
-// and return the string "even" if `num` is an even number
 
-let testNumber = 27
-checkOddOrEven = (num) => {
-    for (let i = 0; i < num; i++) {
-        if (i % 2 === 0) {
-            console.log(i + ' even');
-        } else {
-            console.log(i + ' odd');
+
+const stringTest = 'einstein dalmau guerra';
+//output should be 10
+
+countVowls = (letters) => {
+    // convert this string to an array 
+    const lettersArray = letters.split('');
+    // compare letters to vowels array
+    const vowelsArray = ['a', 'e', 'i', 'o', 'u'];
+    // keep track of number of vowels
+    let count = 0;
+    // loop through the array and check if first array value has the same value as the second array
+    for (let i = 0; i < lettersArray.length; i++) {
+        if (vowelsArray.includes(lettersArray[i])) {
+            count++;
         }
     }
+    return console.log('"' + letters + '" has ' + count + ' vowels');
 }
 
-checkOddOrEven(testNumber)
+countVowls(stringTest);

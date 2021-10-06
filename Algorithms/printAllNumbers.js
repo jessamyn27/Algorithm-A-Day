@@ -1,20 +1,6 @@
-// print all numbers is an easy js algorithm challenge from UT bootcamp:
+console.log('CODE EVERYDAY!🦄 👩🏼‍💻 🌈');
 
-// Write code to print all numbers from 1 to `num`
-// Assume `num` will be a positive number
-
-// input: 7
-// output in console would look like this:
-// 1
-// 2
-// 3
-// 4
-// 5
-// 6
-// 7
-
-
-
+//  valid subsequence challenge from algoexpert.com
 
 
 
@@ -47,9 +33,25 @@
 
 
 
-// let testNumber = 27;
-// let testNumber2 = 100;
-// let testNumber3 = 5;
+
+// function isValidSubsequence(array, sequence) {
+//     // Write your code here.
+//     let j = 0;
+
+//     for (let i = 0; i < array.length; i++) {
+
+//         // you would wait for array[i] = sequence[j] and then move to next value		
+
+//         if (array[i] === sequence[j]) {
+//             j++;
+//         }
+//     }
+//     if (j === sequence.length) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }et testNumber3 = 5;
 // let testNumber4 = 16;
 
 // printAllNumbers = num => {

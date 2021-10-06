@@ -1,4 +1,10 @@
-// tournament winner challenge from algoexpert.com
+console.log('CODE EVERYDAY!🦄 👩🏼‍💻 🌈');
+
+//  valid subsequence challenge from algoexpert.com
+
+
+
+
 
 
 
@@ -28,28 +34,24 @@
 
 
 
-// const competitions = [
-//     ["jacob", "marie"],
-//     ["saya", "jacob"],
-//     ["marie", "saya"]
-// ]
+// function isValidSubsequence(array, sequence) {
+//     // Write your code here.
+//     let j = 0;
 
-// const results = [0, 1, 0]
+//     for (let i = 0; i < array.length; i++) {
 
-// function tournamentWinner(competitions, results) {
-//     const map = new Map();
+//         // you would wait for array[i] = sequence[j] and then move to next value		
 
-//     for (let i = 0; i < competitions.length; i++) {
-//         let [homeTeam, awayTeam] = competitions[i];
-//         let result = results[i];
-//         if (result === 1) {
-//             let homeScore = map.get(homeTeam) || 0
-//             map.set(homeTeam, homeScore + 3)
-//             console.log('home team score is ' + homeScore)
-//         } else {
-//             let awayScore = map.get(awayTeam) || 0
-//             map.set(awayTeam, awayScore + 3)
-//             console.log('away team score is ' + awayScore)
+//         if (array[i] === sequence[j]) {
+//             j++;
+//         }
+//     }
+//     if (j === sequence.length) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }           console.log('away team score is ' + awayScore)
 //         }
 //     }
 //     let currentHighScore = 0;

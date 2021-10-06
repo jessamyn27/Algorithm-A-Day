@@ -1,8 +1,11 @@
 console.log('CODE EVERYDAY!🦄 👩🏼‍💻 🌈');
 
-//  valid subsequence challenge from algoexpert.com
+//  challenge from algoexpert.com and UT Austin Algorithms
+// Write code to return the largest number in the given array
 
+maxNum = () => {
 
+}
 
 
 
