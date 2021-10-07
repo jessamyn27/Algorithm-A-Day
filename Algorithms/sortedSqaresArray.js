@@ -1,7 +1,4 @@
-console.log('CODE EVERYDAY!🦄 👩🏼‍💻 🌈');
-
-//  valid subsequence challenge from algoexpert.com
-
+// Sorted Squared Array from Algoexpert.com
 
 
 
@@ -32,23 +29,19 @@ console.log('CODE EVERYDAY!🦄 👩🏼‍💻 🌈');
 
 
 
+// let array = [1, 2, 3, 5, 6, 8, 9];
 
-
-// function isValidSubsequence(array, sequence) {
-//     // Write your code here.
-//     let j = 0;
-
+// function sortedSquaredArray(array) {
+//     let test = 123
+//     const newArray = new Array(array.length).fill(0)
 //     for (let i = 0; i < array.length; i++) {
+//         let value = array[i];
+//         newArray[i] = value * value;
 
-//         // you would wait for array[i] = sequence[j] and then move to next value		
-
-//         if (array[i] === sequence[j]) {
-//             j++;
-//         }
 //     }
-//     if (j === sequence.length) {
-//         return true;
-//     } else {
-//         return false;
-//     }
+//     console.log
+//     return test;
 // }
+
+// sortedSquaredArray(array)
+// console.log('here is our array: ' + sortedSquaredArray(array));

@@ -1,6 +1,27 @@
-console.log('CODE EVERYDAY!🦄 👩🏼‍💻 🌈');
+// matching string pair is a whiteboarding challenge Jessamyn got from Modernize
+//considered a 'classic' beginner js question:) 
 
-//  valid subsequence challenge from algoexpert.com
+//    Write a function that validates a string full of parenthesis, 
+//    validating that each open parenthesis has a matching closed
+//    parenthesis, and vice versa
+//   Examples:
+//	  Input: '()'
+//	 Output: true
+//	  Input: '((()())())'
+//	 Output: true
+//	  Input: '())('
+//	 Output: false
+//	  Input: '(()'
+//	 Output: false
+//	  Input: ')('
+//	 Output: false
+//	  Input: '())(()'
+//	 Output: false
+
+
+
+
+
 
 
 
@@ -34,33 +55,8 @@ console.log('CODE EVERYDAY!🦄 👩🏼‍💻 🌈');
 
 
 
-// function isValidSubsequence(array, sequence) {
-//     // Write your code here.
-//     let j = 0;
-
-//     for (let i = 0; i < array.length; i++) {
-
-//         // you would wait for array[i] = sequence[j] and then move to next value		
-
-//         if (array[i] === sequence[j]) {
-//             j++;
-//         }
-//     }
-//     if (j === sequence.length) {
-//         return true;
-//     } else {
-//         return false;
-//     }
-// }
-
-
-
-
-
-// let stringTest = '()()(())'; 
-// //returns true
-// let stringTest = '()()(()))'; 
-// //returns false
+// let stringTest = '()()(())'; // returns true
+// // let stringTest = '()()(()))'; // returns false
 
 // matchingPair = (string) => {
 //     const open = '(';

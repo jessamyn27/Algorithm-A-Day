@@ -1,5 +1,3 @@
-console.log('CODE EVERYDAY!🦄 👩🏼‍💻 🌈');
-
 //  valid subsequence challenge from algoexpert.com
 
 

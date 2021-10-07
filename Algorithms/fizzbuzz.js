@@ -1,8 +1,27 @@
-console.log('CODE EVERYDAY!🦄 👩🏼‍💻 🌈');
+// FIZZBUZZ is a classic beginner js whiteboarding challenge:
 
-//  valid subsequence challenge from algoexpert.com
-
-
+// print all numbers from 1 to `num`
+// Assume `num` will be a positive number
+// IF the number is divisible by 3 with no remainder print 'fizz'
+// IF the number is divisible by 5 with no remainder print 'buzz'
+// IF the number is divisible by 3 AND 5 with no remainder print 'fizzbuzz
+// example input: 15
+// example output in console:
+// 1
+// 2
+// 3 fizz
+// 4
+// 5 buzz
+// 6 fizz
+// 7
+// 8
+// 9 fizz
+// 10 buzz
+// 11
+// 12 fizz
+// 13
+// 14
+// 15 fizzbuzz
 
 
 
@@ -34,24 +53,6 @@ console.log('CODE EVERYDAY!🦄 👩🏼‍💻 🌈');
 
 
 
-// function isValidSubsequence(array, sequence) {
-//     // Write your code here.
-//     let j = 0;
-
-//     for (let i = 0; i < array.length; i++) {
-
-//         // you would wait for array[i] = sequence[j] and then move to next value		
-
-//         if (array[i] === sequence[j]) {
-//             j++;
-//         }
-//     }
-//     if (j === sequence.length) {
-//         return true;
-//     } else {
-//         return false;
-//     }
-// }
 
 
 
@@ -62,22 +63,25 @@ console.log('CODE EVERYDAY!🦄 👩🏼‍💻 🌈');
 
 
 
+// let num = 15
 
-
-// let testNumber = 30;
-
-// var logNums = function(num) {
-//     for (let i = 1; i < num + 1; i++) {
+// function fizzBuzz(num) {
+//     for (let i = 0; i <= num; i++) {
 //         if ((i % 3 === 0) && (i % 5 === 0)) {
-//             console.log(i + ' fizzbuzz');
-//         } else if (i % 5 === 0) {
-//             console.log(i + ' buzz');
-//         } else if (i % 3 === 0) {
-//             console.log(i + ' fizz')
-//         } else {
-//             console.log(i);
-//         }
-//     }
-// };
+//             console.log("fizzbuzz", i);   
+//            }
+//            else if (i % 5 === 0) {
+//              console.log("buzz", i);  
+//            }
+//            else if (i % 3 === 0) {
+//             console.log("fizz", i);  
+//           } 
+//           else {
+//               console.log(i)
+//           }
 
-// logNums(testNumber)
+//     }
+
+
+// }
+// fizzBuzz(num)
