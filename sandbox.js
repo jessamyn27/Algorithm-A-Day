@@ -5,24 +5,23 @@ console.log('CODE EVERYDAY!🦄 👩🏼‍💻 🌈');
 // when you get it right, create a new js file and paste in there!
 
 
+// The Snail in the Well
 
-const stringTest = 'einstein dalmau guerra';
-//output should be 10
 
-countVowls = (letters) => {
-    // convert this string to an array 
-    const lettersArray = letters.split('');
-    // compare letters to vowels array
-    const vowelsArray = ['a', 'e', 'i', 'o', 'u'];
-    // keep track of number of vowels
-    let count = 0;
-    // loop through the array and check if first array value has the same value as the second array
-    for (let i = 0; i < lettersArray.length; i++) {
-        if (vowelsArray.includes(lettersArray[i])) {
-            count++;
-        }
-    }
-    return console.log('"' + letters + '" has ' + count + ' vowels');
-}
+// The snail climbs up 7 feet each day and slips back 2 feet each night.
+// How many days will it take the snail to get out of a well with the given depth?
 
-countVowls(stringTest);
+// Sample Input:
+// 31
+
+// Sample Output:
+// 6
+
+// Explanation: Let's break down the distance the snail covers each day:
+// Day 1: 7-2=5
+// Day 2: 5+7-2=10
+// Day 3: 10+7-2=15
+// Day 4: 15+7-2=20
+// Day 5: 20+7-2=25
+// Day 6: 25+7=32
+// So, on Day 6 the snail will reach 32 feet and get out of the well at day, without slipping back that night.
